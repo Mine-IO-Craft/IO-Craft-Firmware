@@ -1,0 +1,23 @@
+# ============ ESP-IDF 构建产物 ============
+build/
+managed_components/
+
+# ============ 本机/板级生成配置 ============
+sdkconfig
+sdkconfig.old
+
+# ============ 本地 IDE / 工具链 ============
+.vscode/
+.idea/
+.espressif/
+
+# ============ 操作系统 / 通用 ============
+*.pyc
+.DS_Store
+Thumbs.db
+
+# ============ 开发备份 / 模板遗留（仅本地保留，不上传） ============
+main.zip
+main 7.11.zip
+pytest_hello_world.py
+sdkconfig.ci

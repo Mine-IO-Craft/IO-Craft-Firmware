@@ -1,0 +1,17 @@
+* text=auto
+
+# 源码与头文件：仓库内统一换行（Windows 检出为 CRLF）
+*.c text eol=crlf
+*.h text eol=crlf
+
+# 文档 / 脚本 / 构建文件：LF
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+CMakeLists.txt text eol=lf
+
+# 二进制（防止被当作文本处理）
+*.zip binary
+*.bin binary
+*.elf binary
+*.map binary
